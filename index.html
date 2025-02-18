@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game of Stunt</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <div id="header">
-        <button>back</button>
+        <button>Back</button>
         <h1>Game of stunt</h1>
-        <button>Stunts</button>
-        
-    </div>
-    <input type="text" id="flyers" placeholder="Add Flyer">
-    <button onclick="addFlyer()">Add</button>
-    <ul id="flyerContainer"></ul>
-    <button onclick="displayFlyers()">display flyers</button>
-    <div id="stuntsMenu">
+        <button>Next</button>
 
     </div>
+
+    <article id="1">
+        <input type="text" id="flyers" placeholder="Add Flyers">
+        <button onclick="addFlyer()">Add</button>
+        <ul id="flyerContainer"></ul> 
+    </article>
+   
+    <article id="2">
+        <input type="text" id="bases" placeholder="Add Bases">
+        <button onclick="addBase()">Add</button>
+        <ul id="baseContainer"></ul> 
+    </article>
    
 </body>
 </html>

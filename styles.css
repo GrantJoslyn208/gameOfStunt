@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;;
+}
+#header {
+    padding: 10px;
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
